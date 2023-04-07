@@ -9,7 +9,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 const resumeLink =
-  "https://raw.githubusercontent.com/Radon-sir/desktop-tutorial/raw/main/Resume_Rahul_Naval.pdf?raw=true";
+  "https://github.com/Radon-sir/Portfolio/blob/main/src/Assets/Rahul_Naval_Nit_Agartala.pdf";
   
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
